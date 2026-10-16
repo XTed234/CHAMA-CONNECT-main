@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "CHAMA CONNECT",
+    "slug": "chama-connect",
+    "owner": "blzone",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo_icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/logo_icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.blzone.chamaconnect",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo_icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.blzone.chamaconnect"
+    },
+    "web": {
+      "favicon": "./assets/images/logo_icon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-router",
+      "expo-web-browser",
+      "expo-secure-store",
+      "@react-native-community/datetimepicker"
+    ],
+    "scheme": "chamaconnect",
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "6e5d1158-83d8-452e-b939-cbeb88f4565f"
+      }
+    }
+  }
+}
